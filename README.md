@@ -42,11 +42,11 @@ El estándar es el sistema de **MITRE** , Common Vulnerabilities and Exposures (
 Mantienen una lista de vulnerabilidades públicas y trabajan junto al **NIST** ( National
 Institute of Standards and Technology) para asignar a cada una puntuación del
 riesgo usando tres sistemas:
-```
+
 - **Common Vulnerability Scoring System (CVSS)**
 - **Common Platform Enumeration scheme (CPE)**
 - **Common Weakness Enumeration (CWE)**
-```
+
 El amplio ecosistema de tecnologías que conviven en el mundo digital y las
 interacciones entre estos dificultan la tarea de crear una única clasificación estricta
 para los exploits, como la que establecería un lingüista que estudia las lenguas
