@@ -67,7 +67,7 @@ sistemas modernos. Por simplicidad vamos a limitarnos a la arquitectura Intel de
 32 bits (IA32) en sistemas Linux. Necesitamos tener una visión general ya que los
 fallos que vamos a explotar nacen de sobrescribir o desbordar una porción de la
 memoria de un proceso.
-En sistemas modernos no existe una distinción real entre instrucciones y datos. Si
+**En sistemas modernos no existe una distinción real entre instrucciones y datos**. Si
 un procesador recibe instrucciones cuando en realidad debería recibir datos, las
 ejecutará, aunque este no sea el comportamiento planeado por el desarrollador
 del programa en ejecución. Sin esta característica, el exploiting no sería posible.
