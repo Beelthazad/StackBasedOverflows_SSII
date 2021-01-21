@@ -17,7 +17,7 @@
 - 8.Bibliografía
 
 
-## 1.Definiciones y consideraciones previas
+## 1. Definiciones y consideraciones previas
 
 
 Una vulnerabilidad es un fallo en el diseño, implementación, uso o administración
@@ -59,7 +59,7 @@ semíticas. Las dos clasificaciones más estrictas que podemos encontrar son:
     vulnerabilidades que no son públicas).
 
 
-## 2.Introducción a las técnicas generalizadas de exploiting
+## 2. Introducción a las técnicas generalizadas de exploiting
 
 
 El desarrollo de exploits requiere comprender cómo funciona la memoria en
@@ -131,7 +131,7 @@ en cuatro categorías:
     programa es necesario poder acceder y cambiar el valor guardado en **EIP.
 4. Otros – EFLAGS.**
 
-## 3.Shellcode
+## 3. Shellcode
 
 ```
 unsigned char buf[] =
@@ -176,7 +176,7 @@ Y extraemos la cadena de bytes ya formateada:
 $ hexdump -v -e '"\\" 1/1 "x%02x"' shellcode.bin; echo
 ```
 
-## 4.Herramientas y recursos
+## 4. Herramientas y recursos
 
 **Pwntools**
 
@@ -288,7 +288,7 @@ memoria, no siempre se nos da. Manipulando funciones a bajo nivel se puede manip
 teoría cualquier dirección de memoria disponible para programas, no solo de la disponible
 para _stack_ de pila.
 
-## 7. String Buffer Overflow
+## 7. Bugs de String Format
 
 Este _exploit_ aprovecha la vulnerabilidad de las **funciones de entrada/salida de texto
 formateado** , en concreto de las que tienen un número de parámetros variable. Aunque los
@@ -355,7 +355,7 @@ pero podemos utilizar esta información para calcular posiciones de memoria dond
 llamada a función de escritura con formato y escribir en cualquier posición de memoria.
 
 
-## 7.PoC de un Buffer Overflow en un ELF sin protecciones
+## 7. PoC de un Buffer Overflow en un ELF sin protecciones
 
 
 ## 9. Bibliografía
