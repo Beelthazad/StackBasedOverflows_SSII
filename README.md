@@ -364,8 +364,7 @@ llamada a función de escritura con formato y escribir en cualquier posición de
     Handbook: Wiley Publishing, Inc.
 - Erickson, J. (2008). _Hacking_ : _The Art of Exploitation_ : No Starch
     Press.
-- [http://security.cs.pub.ro/hexcellents/wiki/kb/exploiting/shellcode-](http://security.cs.pub.ro/hexcellents/wiki/kb/exploiting/shellcode-)
-    walkthrough
+- [http://security.cs.pub.ro/hexcellents/wiki/kb/exploiting/shellcode-](http://security.cs.pub.ro/hexcellents/wiki/kb/exploiting/shellcode-walkthrough)
 - https://github.com/LauraWartschinski/overflow_with_joy
 
 
